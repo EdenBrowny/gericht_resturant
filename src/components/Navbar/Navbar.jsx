@@ -49,7 +49,25 @@ const Navbar = () => {
       <li className='p__opensans'><a href="#awards">Awards</a></li>
       <li className='p__opensans'><a href="#contact">Contact</a></li>
 
+      <div className='app__navbar-smallscreen_login'>
+      <a href="#login" className='p__opensans'>Log In / Register</a>
+      
+      <div />
+      <br />
+
+      <a href="/" className='p__opensans'>Book Table</a>
+      
+    </div>
+
     </ul>
+
+    {/* <div className='app__navbar-login'>
+      <a href="#login" className='p__opensans'>Log In / Register</a>
+
+      <div />
+
+      <a href="/" className='p__opensans'>Book Table</a>
+    </div> */}
    </div>
 )}
        
